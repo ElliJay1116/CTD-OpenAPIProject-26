@@ -1,3 +1,84 @@
+
 body {
-    background-color: chartreuse;
+    background-color: rgb(196, 244, 192);
+    text-align: center;
+}
+/* Title Styling */
+h1{
+    font-family: 'Cursive', 'Arial', sans-serif; 
+    color: rgb(6, 5, 15);
+    margin-top: 100px;
+    font-size: 100px;
+    border-bottom: 100px solid rgb(20, 19, 19);
+    border-bottom-width: 10px;
+}
+/* artist name styling// */
+.whole_container p {
+    font-family: 'Cursive', 'Arial', sans-serif; 
+    font-size: 18px;               
+    text-align: center;            
+    color: #333;                   
+    margin: 0 0 10px 0;           
+    letter-spacing: 0.5px;        
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+    transition: transform 0.3s, color 0.3s;
+}
+/* Artwork Name Styling */
+.whole_container h3 {
+   font-family: 'Cursive', 'Arial', sans-serif; 
+    font-size: 22px;      
+    color: #1a1a2e;        
+    text-align: center;     
+    margin: 10px 0;         
+    letter-spacing: 1px;  
+
+}
+.whole_container {
+
+    display: grid;
+    grid-template-rows: auto; 
+    gap: 10px;                
+    padding: 20px;             
+    max-width: 1200px;
+    margin:0 auto;  
+    margin-bottom: 30px;     
+    background: #f1e0af;     
+    border-radius: 15px;       
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    
+}
+/* link to artwork images */
+.myButton2images {
+     background-color: rgb(236, 200, 231);
+  border: none;
+  color: rgb(15, 5, 5);
+  font-family: 'Cursive', 'Arial', sans-serif;
+  font-weight: bolder; 
+  padding: 15px 32px;
+  max-width: 500px;
+  text-align: center;
+   margin:0 auto;
+  display: inline-block;
+  border-radius: 15px; 
+  font-size: 16px;
+  cursor: pointer;
+}
+/* header link to artinfo */
+.imageheader {   
+background-color: rgb(236, 200, 231);
+  border: #1a1a2e;
+  color: rgb(15, 5, 5);
+  font-family: 'Cursive', 'Arial', sans-serif;
+  font-weight: bolder; 
+  padding: 15px 32px;
+  max-width: 500px;
+  text-align: left;
+   margin:auto;
+  display: inline-block;
+  border-radius: 15px; 
+  font-size: 16px;
+  cursor: pointer;
+    
+
 }
